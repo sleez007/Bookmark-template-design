@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
@@ -37,7 +38,7 @@
     <!-- HERO SECTION -->
     <section class="hero">
         <div class="container grid grid-2 hero__wrapper">
-            <div class="hero__description">
+            <div  class="hero__description wow slideInLeft">
                 <h1>A Simple Bookmark <br/>Manager</h1>
                 <p>A clean and simple interface to organize your favourite websites. Open a new 
                     browser tab and see your sites load instantly. Try it for free.</p>
@@ -46,7 +47,7 @@
                         <a href="#" class="btn btn--ash">Get it on Firefox</a>
                     </div>
             </div>
-            <div class="hero__image">
+            <div class="hero__image wow slideInRight">
                     <img src="./images/illustration-hero.svg" alt="Hero Image">
             </div>
         </div>
@@ -187,6 +188,11 @@
             </ul>
         </section>
     </footer>
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     
 </body>
 </html>
