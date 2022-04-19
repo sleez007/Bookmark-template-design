@@ -272,8 +272,12 @@ p, a{
     margin-top: 2em;
 }
 
-.faq__txt ul,.faq__txt li{
+.faq__txt ul, .faq__txt li{
     position: relative;
+}
+
+.faq__txt ul{
+    margin: 4em auto;
 }
 
 .faq__txt li::before, .faq__txt li:nth-child(1)::after{
@@ -296,7 +300,61 @@ p, a{
     justify-content: space-between;
 }
 
+.faq__txt li p{
+    display: none;
+}
 
+/* FOOTER SECTION */
+.footer{
+    background-color: var(--soft-blue);
+}
 
+.footer__txt{
+    padding: 3em 0;
+    max-width: 650px;
+    margin: 0 auto; 
+    color: var(--white-color);
+}
 
+.footer__txt h2{
+    color: var(--white-color);
+}
+
+.footer__txt > * + * {
+    margin-top: 2em;
+}
+
+.email{
+    height: 32px;
+    border: none;
+    padding: .2em;
+    border-radius: .2em;
+
+}
+.contact{
+    background-color: var(--soft-red);
+    border: none;
+    color: var(--white-color);
+}
+
+.footer__links{
+    padding: 1em 0;
+    background-color: var(--dark-blue);
+}
+
+.footer__links ul{
+    justify-content: flex-start;
+}
+
+.footer__links ul li{
+    margin: 0 .5em;
+}
+
+.footer__links ul li:nth-child(5){
+    margin-left: auto;
+}
+
+.footer__links ul li i{
+    color: var(--white-color);
+}
 
