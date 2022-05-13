@@ -362,3 +362,8 @@ p, a{
     color: var(--white-color);
 }
 
+.flex.box{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
