@@ -2,3 +2,29 @@
     --desktop-view: 1440px;
     --mobile-view: 375px;
 }
+
+@media(max-width: 500px){
+    .nav__menu{
+        display: none;
+    }
+    .nav__toggle{
+        display: block;
+    }
+}
+
+@media(max-width: 1000px){
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 3em;
+    }
+    .grid-3{
+        gap: 2em;
+    }
+    .download__card:nth-child(2){
+        margin-top: 0;
+    }
+    .download__card:nth-child(3){
+        margin-top: 0;
+    }
+}
