@@ -11,12 +11,12 @@
     --medium-font-size: 500;
     
     --font-family: 'Rubik', sans-serif; 
-
 }
 
 body{
     font-family: var(--font-family);
     color: var(--greyish-blue);
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -133,9 +133,9 @@ p, a{
     width: 100%;
     height:800px;
     max-height: 100vh;
-    max-width: var(--desktop-view);
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
    
 }
 
@@ -143,11 +143,11 @@ p, a{
     position: relative;
     width: 100%;
     /* overflow: hidden; */
-    max-width: var(--desktop-view);
+    /* max-width: var(--desktop-view); */
     margin: 0 auto;
 }
 
-/* .hero__wrapper::after, .feature__wrapper::after{
+.hero__wrapper::after, .feature__wrapper::after{
     content:'';
     display: block;
     width: 100%;
@@ -159,7 +159,7 @@ p, a{
     top: 50%;
     transform: translateY(-15%);
     border-radius: 300px;
-} */
+}
 
 
 .hero__description * + *{

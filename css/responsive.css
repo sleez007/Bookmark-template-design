@@ -27,4 +27,24 @@
     .download__card:nth-child(3){
         margin-top: 0;
     }
+
+    .hero__wrapper::after, .feature__wrapper::after{
+       
+        background-color: var(--soft-blue);
+        z-index: -1;
+        right:-60%;
+        top: auto;
+        bottom: 0;
+        height: 14em;
+        /* transform: translateY(100%); */
+        border-radius: 10em;
+    }
+
+    .feature__wrapper::after{
+        z-index: -1;
+        top: 10em;
+        bottom: auto;
+    }
+
+
 }
