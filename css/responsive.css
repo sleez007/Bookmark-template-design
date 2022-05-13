@@ -10,7 +10,7 @@
     .nav__toggle{
         display: block;
     }
-    .flex{
+    .footer__links .flex{
         flex-direction: column;
     }
     .flex.friends{
